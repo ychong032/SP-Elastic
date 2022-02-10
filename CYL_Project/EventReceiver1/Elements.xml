@@ -7,14 +7,14 @@
         <Name>EventReceiver1ItemDeleting</Name>
         <Type>ItemDeleting</Type>
         <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
-        <Class>IDSCircular.EventReceiver1.EventReceiver1</Class>
+        <Class>CYL_Project.EventReceiver1.EventReceiver1</Class>
         <SequenceNumber>10000</SequenceNumber>
       </Receiver>
       <Receiver>
         <Name>EventReceiver1ItemAdded</Name>
         <Type>ItemAdded</Type>
         <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
-        <Class>IDSCircular.EventReceiver1.EventReceiver1</Class>
+        <Class>CYL_Project.EventReceiver1.EventReceiver1</Class>
         <SequenceNumber>10000</SequenceNumber>
 		<Synchronization>Synchronous</Synchronization>
       </Receiver>
@@ -22,7 +22,7 @@
         <Name>EventReceiver1ItemUpdated</Name>
         <Type>ItemUpdated</Type>
         <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
-        <Class>IDSCircular.EventReceiver1.EventReceiver1</Class>
+        <Class>CYL_Project.EventReceiver1.EventReceiver1</Class>
         <SequenceNumber>10000</SequenceNumber>
 		<Synchronization>Synchronous</Synchronization>
       </Receiver>
@@ -30,7 +30,7 @@
 		<Name>EventReceiver1ItemAttachmentAdded</Name>
         <Type>ItemAttachmentAdded</Type>
         <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
-        <Class>IDSCircular.EventReceiver1.EventReceiver1</Class>
+        <Class>CYL_Project.EventReceiver1.EventReceiver1</Class>
         <SequenceNumber>10000</SequenceNumber>
 		<Synchronization>Synchronous</Synchronization>
 	  </Receiver>
