@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="36f89fba-3143-468d-8314-c4ff65c7e1cf" solutionId="36f89fba-3143-468d-8314-c4ff65c7e1cf" resetWebServer="false" sharePointProductVersion="15.0" name="IDSCircular" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="85c997ac-a2ce-423e-8142-b8a7fa38552f" />
+    <featureReference itemId="e17a058f-d114-4b7d-acbe-6194ad2489f6" />
+  </features>
+</package>
