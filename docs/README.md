@@ -14,15 +14,15 @@ The following packages were installed and used in the project.
 The following files contain the essential code for the item event receiver and access control timer job functions.
 | File name | Function |
 | --- | --- |
-| [TimerJob.cs](../IDSCircular/TimerJob.cs) | Extracts item details and SharePoint group details. |
-| [Feature2.EventReceiver.cs](../IDSCircular/Features/Feature2/Feature2.EventReceiver.cs) | Handles activation and deactivation of the timer job. |
-| [EventReceiver1.cs](../IDSCircular/EventReceiver1/EventReceiver1.cs) | Extracts event type and item details. |
+| [TimerJob.cs](../CYL_Project/TimerJob.cs) | Extracts item details and SharePoint group details. |
+| [Feature2.EventReceiver.cs](../CYL_Project/Features/Feature2/Feature2.EventReceiver.cs) | Handles activation and deactivation of the timer job. |
+| [EventReceiver1.cs](../CYL_Project/EventReceiver1/EventReceiver1.cs) | Extracts event type and item details. |
 | [access_control_sync.py](../Python/access_control_sync.py) | Assigns permissions to Workplace Search users and documents, as well as clearing permissions from users. |
 | [event_receiver.py](../Python/event_receiver.py) | Indexes or deletes corresponding Workplace Search documents. |
 
 ## Important Reminders
 * Change the relevant file paths used in the C# codes e.g., path to Python installation, path to Python scripts, paths for log files
-* To change the targeted list of the item event receiver, change the `ListUrl` attribute of the `Receivers` tag in [Elements.xml](../IDSCircular/EventReceiver1/Elements.xml)
+* To change the targeted list of the item event receiver, change the `ListUrl` attribute of the `Receivers` tag in [Elements.xml](../CYL_Project/EventReceiver1/Elements.xml)
 
 ## Workflow Diagrams
 ![Timer job activation image](Diagrams/timer-job-activation-flow.png)
