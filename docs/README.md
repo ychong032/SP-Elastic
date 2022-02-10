@@ -28,7 +28,12 @@ The following files contain the essential code for the item event receiver and a
 ![Timer job activation image](Diagrams/timer-job-activation-flow.png)
 ![Timer job image](Diagrams/timer-job-flow.png)
 ![Item event receiver image](Diagrams/item-event-receiver-flow.png)
-![Permission mapping image](Diagrams/permission-mapping.png)
+![Permission mapping image](Diagrams/permission-mapping.png) <br />
+All diagrams above were created using [diagrams.net](https://app.diagrams.net/).
 
 ## Notes
+- If the Visual Studio solution fails to deploy with an error message like "operation is not valid due to the current state of the object", a simple fix is to right-click on the project file and retract it, unload the project, and reload it.
+- The timer job was created with guidance from a [tutorial page](https://www.codesharepoint.com/sharepoint-tutorial/how-to-create-sharepoint-timer-job-programmatically).
+
+## About
 This project was done as part of an internship programme at [CSIT](https://www.csit.gov.sg/).
